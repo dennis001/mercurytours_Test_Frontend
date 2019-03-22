@@ -1,0 +1,43 @@
+[1m[1;34m#<Module:0x00000000045bd4d0>#methods[0m[0m: add_modules!
+[1m[1;34mCucumber::Glue::ProtoWorld#methods[0m[0m: ask  embed  inspect  pending  puts  skip_this_scenario  step  steps  table  to_s
+[1m[1;34mRSpec::Matchers#methods[0m[0m: 
+  a_block_changing                  a_nil_value             an_object_having_attributes  be_within           existing           satisfy                 
+  a_block_outputting                a_range_covering        an_object_matching           change              expect             satisfying              
+  a_block_raising                   a_string_ending_with    an_object_responding_to      changing            have_attributes    start_with              
+  a_block_throwing                  a_string_including      an_object_satisfying         contain_exactly     having_attributes  starting_with           
+  a_block_yielding_control          a_string_matching       be                           containing_exactly  include            throw_symbol            
+  a_block_yielding_successive_args  a_string_starting_with  be_a                         cover               including          throwing                
+  a_block_yielding_with_args        a_truthy_value          be_a_kind_of                 covering            match              yield_control           
+  a_block_yielding_with_no_args     a_value                 be_an                        end_with            match_array        yield_successive_args   
+  a_collection_containing_exactly   a_value_between         be_an_instance_of            ending_with         match_regex        yield_with_args         
+  a_collection_ending_with          a_value_within          be_between                   eq                  matching           yield_with_no_args      
+  a_collection_including            aggregate_failures      be_falsey                    eq_to               output             yielding_control        
+  a_collection_starting_with        an_instance_of          be_falsy                     eql                 raise_error        yielding_successive_args
+  a_falsey_value                    an_object_eq_to         be_instance_of               eql_to              raise_exception    yielding_with_args      
+  a_falsy_value                     an_object_eql_to        be_kind_of                   equal               raising            yielding_with_no_args   
+  a_hash_including                  an_object_equal_to      be_nil                       equal_to            respond_to       
+  a_kind_of                         an_object_existing      be_truthy                    exist               responding_to    
+[1m[1;34mCapybara::DSL#methods[0m[0m: 
+  accept_alert              attach_file           evaluate_script     has_css?               has_no_title?            refute_selector           title           
+  accept_confirm            body                  execute_script      has_current_path?      has_no_unchecked_field?  reset_session!            uncheck         
+  accept_prompt             check                 fill_in             has_field?             has_no_xpath?            response_headers          unselect        
+  all                       choose                find                has_link?              has_select?              save_and_open_page        using_session   
+  assert_all_of_selectors   click_button          find_all            has_no_button?         has_selector?            save_and_open_screenshot  using_wait_time 
+  assert_any_of_selectors   click_link            find_button         has_no_checked_field?  has_table?               save_page                 visit           
+  assert_current_path       click_link_or_button  find_by_id          has_no_content?        has_text?                save_screenshot           window_opened_by
+  assert_no_current_path    click_on              find_field          has_no_css?            has_title?               scroll_by                 windows         
+  assert_no_selector        current_host          find_link           has_no_current_path?   has_unchecked_field?     scroll_to                 within          
+  assert_no_text            current_path          first               has_no_field?          has_xpath?               select                    within_element  
+  assert_no_title           current_scope         go_back             has_no_link?           html                     source                    within_fieldset 
+  assert_none_of_selectors  current_url           go_forward          has_no_select?         open_new_window          status_code               within_frame    
+  assert_selector           current_window        has_button?         has_no_selector?       page                     switch_to_frame           within_table    
+  assert_text               dismiss_confirm       has_checked_field?  has_no_table?          query                    switch_to_window          within_window   
+  assert_title              dismiss_prompt        has_content?        has_no_text?           refresh                  text                    
+[1m[1;34mCapybara::RSpecMatchers#methods[0m[0m: 
+  become_closed          have_content       have_no_button         have_no_field     have_no_text             have_select    have_title            match_style       
+  have_all_of_selectors  have_css           have_no_checked_field  have_no_link      have_no_title            have_selector  have_unchecked_field  match_xpath       
+  have_any_of_selectors  have_current_path  have_no_content        have_no_select    have_no_unchecked_field  have_style     have_xpath            not_match_css     
+  have_button            have_field         have_no_css            have_no_selector  have_no_xpath            have_table     match_css             not_match_selector
+  have_checked_field     have_link          have_no_current_path   have_no_table     have_none_of_selectors   have_text      match_selector        not_match_xpath   
+[1m[1;34minstance variables[0m[0m: [0;34m@__namespaced_modules[0m  [0;34m@home[0m
+[1m[1;34mlocals[0m[0m: _  __  _dir_  _ex_  _file_  _in_  _out_  _pry_
