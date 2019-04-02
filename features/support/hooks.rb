@@ -1,5 +1,5 @@
 Before do
-	puts 'Inicio da Execucao'
+	#puts 'Inicio da Execucao'
 end
 
 After do |scenario|

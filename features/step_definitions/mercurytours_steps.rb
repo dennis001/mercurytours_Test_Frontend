@@ -5,8 +5,8 @@ Dado("que eu esteja logado") do
   @home.login_button.click
 end
 
-Quando("escolho a compania de viagem e classe") do
-  @home.flight_details
+Quando("defino os detalhes da viagem com {string},{string},{string},{string},{string}, {string} e classe") do |ida, mes_ida, dia_ida, volta, mes_volta, dia_volta|
+  @home.flight_details(ida,mes_ida,dia_ida,volta,mes_volta,dia_volta)
   @home.preferences.click
   @home.text.click
   @home.select_flight
@@ -20,6 +20,5 @@ Quando("preencher meus dados") do
 end
 
 Entao("valido se Foi gerado o Flight confirmation NUMBER com sucesso") do
-  #binding.pry
-  @home.element
+  @home.flightConfirmacao
 end
