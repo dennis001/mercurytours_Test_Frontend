@@ -11,9 +11,9 @@ class PageHome < SitePrism::Page
 		element :returning_mouth, "select[name='toMonth']"
 		element :returning_day, "select[name='toDay']"
 		element :preferences, "input[value='First']"
-    element :text, "input[name='findFlights']"
-    element :depart, "input[value='Blue Skies Airlines$361$271$7:10']"
-    element :retorno, "input[value='Blue Skies Airlines$631$273$14:30']"
+    		element :text, "input[name='findFlights']"
+    		element :depart, "input[value='Blue Skies Airlines$361$271$7:10']"
+    		element :retorno, "input[value='Blue Skies Airlines$631$273$14:30']"
 		element :from, "b['Blue Skies Airlines 361']"
 		element :back, "b['Blue Skies Airlines 631']"
 		element :reserv, "input[name='reserveFlights']"
@@ -26,21 +26,21 @@ class PageHome < SitePrism::Page
 	def login_test(nome, senha)
 		usuario.set(nome)
 		password.set(senha)
-  end
+  	end
 
-  def flight_details(ida, mes_ida, dia_ida, volta, mes_volta, dia_volta)
+  	def flight_details(ida, mes_ida, dia_ida, volta, mes_volta, dia_volta)
 		departing_from.select(ida)
 		on_mouth.select(mes_ida)
 		on_day.select(dia_ida)
 		arriving_in.select(volta)
 		returning_mouth.select(mes_volta)
 		returning_day.select(dia_volta)
-  end
+  	end
 
-  def select_flight
-    depart.click
-    retorno.click
-  end
+  	def select_flight
+    		depart.click
+    		retorno.click
+  	end
 
 	def book_depart
 		assert_text("Blue Skies Airlines 361")
